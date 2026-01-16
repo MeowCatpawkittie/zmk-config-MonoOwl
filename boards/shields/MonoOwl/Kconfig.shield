@@ -1,0 +1,5 @@
+config SHIELD_MONOOWL_R
+    def_bool $(shields_list_contains,MonoOwl_R)
+
+config SHIELD_MONOOWL_L
+    def_bool $(shields_list_contains,MonoOwl_L)
