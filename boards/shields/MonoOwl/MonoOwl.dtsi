@@ -36,8 +36,8 @@ split_inputs {
             <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
             <&zip_xy_scaler 1 10>,
             <&zip_xy_to_scroll_mapper>,
-            //<&zip_report_rate_limit 8>, <&zip_xyz>;
-            <&zip_report_rate_limit 8>;
+            <&zip_xyz>;
+            
     };
 
     trackball_listener_R: trackball_listener_R {
