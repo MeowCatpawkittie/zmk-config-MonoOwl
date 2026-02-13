@@ -8,6 +8,9 @@
 #include <input/processors/report_rate_limit.dtsi>
 #include <input/processors/xyz.dtsi>
 
+&uicr {
+    nfct-pins-as-gpios;
+};
 
 / {
     chosen {
