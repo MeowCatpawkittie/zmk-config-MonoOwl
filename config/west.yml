@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/MeowCatpawkittie
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: caksoylar  # <-- new entry
+    - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
