@@ -11,11 +11,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-rgbled-widget
-      url: https://github.com/caksoylar/zmk-rgbled-widget
-      revision: v0.3 
+      remote: caksoylar
+      revision: main
     - name: zmk-input-processor-report-rate-limit
       remote: badjeff
       revision: main
