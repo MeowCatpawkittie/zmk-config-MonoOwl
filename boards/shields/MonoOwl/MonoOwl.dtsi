@@ -17,6 +17,32 @@
         zmk,physical-layout = &default_layout;
     };
 
+    aliases {
+        led_red   = &rgb_led_red;
+        led_green = &rgb_led_green;
+        led_blue  = &rgb_led_blue;
+    };
+
+    rgbled: rgbled {
+        compatible = "gpio-leds";
+        status = "okay";
+
+        rgb_led_red: led_red {
+            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>;
+            label = "LED_RED";
+        };
+
+        rgb_led_green: led_green {
+            gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
+            label = "LED_GREEN";
+        };
+
+        rgb_led_blue: led_blue {
+            gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
+            label = "LED_BLUE";
+        };
+    };
+
 //trackball settings  
 split_inputs {
       #address-cells = <1>;
