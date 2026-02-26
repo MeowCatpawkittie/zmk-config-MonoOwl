@@ -36,7 +36,6 @@
             gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;  // blue LED, connected to P0.06
         };
     };
-};
 
 //trackball settings  
 split_inputs {
